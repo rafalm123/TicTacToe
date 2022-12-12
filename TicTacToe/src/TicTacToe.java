@@ -2,6 +2,8 @@ import java.util.*;
 
 public class TicTacToe {
 
+
+
     static ArrayList<Integer> playerPositions = new ArrayList<>();
     static ArrayList<Integer> cpuPositions = new ArrayList<>();
 
@@ -20,6 +22,10 @@ box selection
 //            System.out.println("Play again - press 1");
 //            i = scanner.nextLine();
         }
+
+    public static void testingGitBranchesAndCommits(){
+        System.out.println("Professional testing, you gotta be some google ceo");
+    }
 
 
     public static boolean startingPlayer(){
